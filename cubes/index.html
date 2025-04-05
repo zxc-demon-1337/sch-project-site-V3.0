@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <div class="header-2" id="home">
+                <i class="fas fa-cube"></i>
+                <span>Mcubes</span>
+            </div>
+            <span>О нас</span>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="cube-selector" id="cube-selector">
+                <div class="box" id="box-2x2">
+                    <img id="cube-2x2" src="../imgs/2x2.png" alt="" height="400" width="400">
+                    <div class="letter">
+                        <span class="method-button" id="m-2x2-def">базовый</span>
+                        <span class="method-button" id="m-2x2-adv">продвинутый </span>
+                    </div>
+                </div>
+                
+                <div class="box" id="box-3x3">
+                    <img id="cube-3x3" src="../imgs/3x3.png" alt="" height="400" width="400">
+                    <div class="letter">
+                        <span class="method-button" id="m-3x3-def">базовый</span>
+                        <span class="method-button" id="m-3x3-adv">продвинутый </span>
+                    </div>
+                </div>
+
+                <div class="box" id="box-4x4">
+                    <img id="cube-4x4" src="../imgs/4x4.png" alt="" height="400" width="400">
+                    <div class="letter">
+                        <span class="method-button" id="m-4x4-def">базовый</span>
+                        <span class="method-button" id="m-4x4-adv">продвинутый </span>
+                    </div>
+                </div>
+            </div>
+            <div class="cube-selector-2" id="cube-selector-2">
+                <div class="cube-selector-2-frame" id="cube-blur"></div>
+                <div class="cube-selector-2-frame" id="cube-unblur"></div>
+                <div class="cube-selector-2-frame" id="cube-blur"></div>
+            </div>
+        </div>
+        <div class="nav-btns-wrapper">
+            <button id="left" class="nav-btns"><img src="../imgs/arrow-left.svg" fill="#00f7ff" alt=""  height="70px" width="70px"></button>
+            <button id="right" class="nav-btns"><img src="../imgs/arrow-right.svg" alt="" height="70px" width="70px"></button>
+        </div>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
