@@ -100,7 +100,7 @@ createParticles();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 document.addEventListener("DOMContentLoaded", () => {
 
-    const framesContainer = document.getElementById("cube-selector");
+    const framesContainer = document.getElementById("cube-selector-2");
     const leftButton = document.getElementById("left");
     const rightButton = document.getElementById("right");
   
