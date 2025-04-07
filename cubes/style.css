@@ -171,6 +171,18 @@ main{
     transition: background-color 1s ease;
 }
 
+#m-4x4-def:hover{
+    background-color: var(--primary);
+    transition: background-color 1s ease;
+}
+
+#m-4x4-adv:hover{
+    background-color: var(--accent);
+    transition: background-color 1s ease;
+}
+
+
+
 #box-2x2{
     display: flex;
     flex-direction: column;
@@ -332,7 +344,7 @@ i {
     &:hover{
         border: 5px solid var(--primary);
         filter: drop-shadow(0 0 20px rgba(0, 247, 255, 0.3));
-        transition: border 1s ease, 
+        transition: border .8s ease, 
                     filter 1s ease;
 
     }

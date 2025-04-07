@@ -6,6 +6,7 @@
     <title>Quantum Cube - Футуристичный тренажер кубика Рубика</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../default-styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- <div class="tech-grid"></div> -->
@@ -26,32 +27,31 @@
             <span>О нас</span>
         </div>
     </header>
-    <script>
- // Динамические частицы
-        function createParticles() {
-            const particlesContainer = document.querySelector('.particles');
-            for (let i = 0; i < 10; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.top = Math.random() * 100 + '%';
-                particle.style.animationDuration = 15 + Math.random() * 15 + 's';
-                particle.style.animationDelay = Math.random() * 5 + 's';
-                particle.style.width = 2 + Math.random() * 3 + 'px';
-                particle.style.height = particle.style.width;
-                particlesContainer.appendChild(particle);
-            }
-        }
-        
-        createParticles();
-        
-        // Параллакс эффект для сетки
-        // document.addEventListener('mousemove', function(e) {
-        //     const techGrid = document.querySelector('.tech-grid');
-        //     const x = e.clientX / window.innerWidth;
-        //     const y = e.clientY / window.innerHeight;
-        //     techGrid.style.transform = `translate(${x * 20 - 10}px, ${y * 20 - 10}px)`;
-        // });
-    </script>
+    <main>
+        <div class="letter">
+            <h1>Схема вращений</h1>
+            <ol>
+                <li>F - поворот передней стороны по часовой стрелке</li>
+                <li>F' - поворот передней стороны против часовой стрелке</li>
+                <li>B - поворот задней стороны по часовой стрелке</li>
+                <li>B' - поворот задней стороны против часовой стрелке</li>
+                <li>R - поворот правой стороны по часовой стрелке</li>
+                <li>R' - поворот правой стороны против часовой стрелке</li>
+                <li>L - поворот левой стороны по часовой стрелке</li>
+                <li>L' - поворот левой стороны против часовой стрелке</li>
+                <li>U - поворот верхней стороны по часовой стрелке</li>
+                <li>U' - поворот верхней стороны против часовой стрелке</li>
+                <li>D - поворот нижней стороны по часовой стрелке</li>
+                <li>D' - поворот нижней стороны против часовой стрелке</li>
+            </ol>
+            <p>Повороты выполняются только на 90°. Если указано U2, это означает поворот на 180° (два раза по 90°).</p>
+        </div>
+        <nav>
+            <!-- <button>Назад</button>
+            <button>Вперёд</button> -->
+        </nav>
+    </main>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
