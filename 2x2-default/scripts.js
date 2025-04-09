@@ -1,53 +1,167 @@
-document.getElementById('startBtn').addEventListener('click', function() {
-    // Анимация кнопки
-    this.style.transform = 'scale(0.95)';
-    setTimeout(() => {
-        this.style.transform = 'scale(1)';
-    }, 200);
-    
-    // Эффект вспышки
-    const flash = document.createElement('div');
-    flash.style.position = 'fixed';
-    flash.style.top = '0';
-    flash.style.left = '0';
-    flash.style.width = '100%';
-    flash.style.height = '100%';
-    flash.style.background = 'rgba(0, 247, 255, 0.5)';
-    flash.style.zIndex = '1000';
-    flash.style.opacity = '0';
-    flash.style.transition = 'opacity 0.5s';
-    document.body.appendChild(flash);
-    
-    setTimeout(() => {
-        flash.style.opacity = '1';
-    }, 10);
-    
-    setTimeout(() => {
-        flash.style.opacity = '0';
-        setTimeout(() => {
-            document.body.removeChild(flash);
-        }, 500);
-    }, 100);
-    
-    setTimeout(() => {
-        window.location.href = '../cubes/index.html';
-    }, 600);
+const vid = document.getElementById("vid")
+const video = document.getElementById("video")
+
+const F = document.getElementById("F")
+//F
+F.addEventListener("mouseover", () =>{
+    let rect = F.getBoundingClientRect();
+    vid.style.display = "block";
+    vid.style.top = `${rect.top - 200}px`;
+    vid.style.left = `${rect.left - 130}px`;
+    video.src="../imgs/F.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
+
+});
+F.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
 });
 
-// Динамические частицы
-function createParticles() {
-    const particlesContainer = document.querySelector('.particles');
-    for (let i = 0; i < 10; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.top = Math.random() * 100 + '%';
-        particle.style.animationDuration = 15 + Math.random() * 15 + 's';
-        particle.style.animationDelay = Math.random() * 5 + 's';
-        particle.style.width = 2 + Math.random() * 3 + 'px';
-        particle.style.height = particle.style.width;
-        particlesContainer.appendChild(particle);
-    }
-}
+const f = document.getElementById("F'")
+f.addEventListener("mouseover", () =>{
+    let rect = f.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+    video.src="../imgs/F'.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
+});
+f.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+//
 
-createParticles();
+//B
+const B = document.getElementById("B")
+B.addEventListener("mouseover", () =>{
+    let rect = B.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+B.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+
+const b = document.getElementById("B'")
+b.addEventListener("mouseover", () =>{
+    let rect = b.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+b.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+//
+
+//R
+const R = document.getElementById("R")
+R.addEventListener("mouseover", () =>{
+    let rect = R.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+    video.src="../imgs/R.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
+});
+R.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+
+const r = document.getElementById("R'")
+r.addEventListener("mouseover", () =>{
+    let rect = r.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+    video.src="../imgs/R'.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
+});
+r.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+//
+
+//L
+const L = document.getElementById("L")
+L.addEventListener("mouseover", () =>{
+    let rect = L.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+L.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+
+const l = document.getElementById("L'")
+l.addEventListener("mouseover", () =>{
+    let rect = l.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+l.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+//
+
+//U
+const U = document.getElementById("U")
+U.addEventListener("mouseover", () =>{
+    let rect = U.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+U.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+
+const u = document.getElementById("U'")
+u.addEventListener("mouseover", () =>{
+    let rect = u.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+u.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+//
+
+//D
+const D = document.getElementById("D")
+D.addEventListener("mouseover", () =>{
+    let rect = D.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+D.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+
+const d = document.getElementById("D'")
+d.addEventListener("mouseover", () =>{
+    let rect = d.getBoundingClientRect();
+    vid.style.display = "block"
+    vid.style.top = `${rect.top - 200}px`
+    vid.style.left = `${rect.left - 130}px`
+});
+d.addEventListener("mouseout", () =>{
+    vid.style.display = "none"
+});
+//
+
+F.addEventListener('mouse', () => {
+
+    });

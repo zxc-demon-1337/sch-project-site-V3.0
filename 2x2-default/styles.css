@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-direction: row-reverse;
     position: relative;
+    z-index: 1;
 }
 
 h1{
@@ -33,30 +34,52 @@ a{
     z-index: 1;
 }
 
-.videos{
-    position: relative;
+#vid{
+    display: none;
+    position: absolute;
     z-index: 2;
+    top: 273px;
+
+}
+
+#video{
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+
 }
 
 #F{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: relative;
     /* display: none; */
     z-index: 2;
-    background-color: red;
-
-
 }
 
 
 
 .letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
     width: 95%;
+    gap:5%;
+
+    *{
+        position: relative;
+        z-index: 1;
+    }
 }
 li{
     list-style-position: inside;
     position: relative;
+    margin: 10px;
+    font-size: 20px;
 }
 ol{
     position: relative;
