@@ -21,17 +21,16 @@ main{
     z-index: 1;
 }
 
-h1{
-    margin-bottom: 10px;
-}
-
 p{
     margin-top: 10px;
+    font-size: 20px;
 }
 
-a{
+.vid-a{
     position: relative;
     z-index: 1;
+    text-decoration: none;
+    color: var(--accent);
 }
 
 #vid{
@@ -110,10 +109,23 @@ nav{
     background: linear-gradient(90deg, var(--primary), var(--secondary));
     border: 0;
     box-shadow: 0;
+    background: rgba(75, 75, 75, 0.33);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2.8px);
+        -webkit-backdrop-filter: blur(2.8px);
     transition: box-shadow .8s ease;
+    
+    color: var(--primary);
+    font-size: 20px;
 
     &:hover{
-        box-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+        box-shadow: 0 0 50px rgba(0, 247, 255, 0.3),
+        0 0 40px rgba(0, 247, 255, 0.3) inset;
         transition: box-shadow .8s ease;
-    }
+    };
+}
+.btn-stage:nth-child(1){
+    color: var(--secondary);
+    box-shadow: 0 0 50px rgba(255, 0, 217, 0.3),
+        0 0 40px rgba(255, 0, 217, 0.3) inset;
 }

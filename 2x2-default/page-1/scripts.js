@@ -8,7 +8,7 @@ F.addEventListener("mouseover", () =>{
     vid.style.display = "block";
     vid.style.top = `${rect.top - 200}px`;
     vid.style.left = `${rect.left - 130}px`;
-    video.src="../imgs/F.webm"
+    video.src="../../imgs/F.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
     });
@@ -24,7 +24,7 @@ f.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
-    video.src="../imgs/F'.webm"
+    video.src="../../imgs/F'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
     });
@@ -41,6 +41,10 @@ B.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/B.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 B.addEventListener("mouseout", () =>{
     vid.style.display = "none"
@@ -52,6 +56,10 @@ b.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/B'.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 b.addEventListener("mouseout", () =>{
     vid.style.display = "none"
@@ -65,7 +73,7 @@ R.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
-    video.src="../imgs/R.webm"
+    video.src="../../imgs/R.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
     });
@@ -80,7 +88,7 @@ r.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
-    video.src="../imgs/R'.webm"
+    video.src="../../imgs/R'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
     });
