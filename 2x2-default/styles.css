@@ -1,0 +1,131 @@
+:root {
+    --primary: #00f7ff;
+    --secondary: #ff00e6;
+    --bg-dark: #0a0e23;
+    --bg-light: #1a1f3d;
+    --text: #e0e0ff;
+    --accent: #7b00ff;
+    --red: #ff3366;
+    --blue: #3366ff;
+    --green: #33ff66;
+    --yellow: #ffcc33;
+    --white: #f0f0ff;
+    --orange: #ff9933;
+}
+
+main{
+    height: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    z-index: 1;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.vid-a{
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+#vid{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 273px;
+
+}
+
+#video{
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+
+}
+
+#F{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* display: none; */
+    z-index: 2;
+}
+
+
+
+.letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    width: 95%;
+    gap:5%;
+
+    *{
+        position: relative;
+        z-index: 1;
+    }
+}
+li{
+    list-style-position: inside;
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
+}
+ol{
+    position: relative;
+    z-index: 1;
+}
+
+nav{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+}
+
+#btn-stage-1{
+    box-shadow:  0 0 20px ;
+}
+
+.btn-stage{
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(90deg, var(--primary),var(--secondary));
+    border: 0;
+    box-shadow: 0;
+    background: rgba(75, 75, 75, 0.33);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2.8px);
+        -webkit-backdrop-filter: blur(2.8px);
+    transition: box-shadow .8s ease;
+    
+    color: var(--primary);
+    font-size: 20px;
+
+    &:hover{
+        box-shadow: 0 0 50px rgba(0, 247, 255, 0.3),
+        0 0 40px rgba(0, 247, 255, 0.3) inset;
+        transition: box-shadow .8s ease;
+    };
+}
+.btn-stage:nth-child(1){
+    color: var(--secondary);
+    box-shadow: 0 0 50px rgba(255, 0, 217, 0.3),
+        0 0 40px rgba(255, 0, 217, 0.3) inset;
+}
