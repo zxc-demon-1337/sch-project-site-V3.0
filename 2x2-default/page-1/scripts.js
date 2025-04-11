@@ -105,6 +105,10 @@ L.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/L.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 L.addEventListener("mouseout", () =>{
     vid.style.display = "none"
@@ -116,6 +120,10 @@ l.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/L'.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 l.addEventListener("mouseout", () =>{
     vid.style.display = "none"
@@ -129,6 +137,10 @@ U.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/U.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 U.addEventListener("mouseout", () =>{
     vid.style.display = "none"
@@ -140,6 +152,10 @@ u.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/U'.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 u.addEventListener("mouseout", () =>{
     vid.style.display = "none"
@@ -153,6 +169,10 @@ D.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/D.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 D.addEventListener("mouseout", () =>{
     vid.style.display = "none"
@@ -164,12 +184,12 @@ d.addEventListener("mouseover", () =>{
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
     vid.style.left = `${rect.left - 130}px`
+    video.src="../../imgs/D'.webm"
+    video.play().catch(error => {
+        console.error('Ошибка при запуске видео:', error);
+    });
 });
 d.addEventListener("mouseout", () =>{
     vid.style.display = "none"
 });
 //
-
-F.addEventListener('mouse', () => {
-
-    });
