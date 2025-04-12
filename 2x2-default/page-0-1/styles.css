@@ -1,0 +1,114 @@
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    z-index: 1;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.vid-a{
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+#vid{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 273px;
+}
+
+#video{
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+
+}
+
+#F{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* display: none; */
+    z-index: 2;
+}
+
+
+
+.letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width: 85%;
+    gap:5%;
+
+    *{
+        position: relative;
+        z-index: 1;
+    }
+}
+li{
+    list-style-position: inside;
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
+}
+ol{
+    position: relative;
+    z-index: 1;
+}
+nav{
+    width: 15%;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+}
+
+.btn-stage{
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    border: 0;
+    box-shadow: 0;
+    background: rgba(75, 75, 75, 0.33);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2.8px);
+        -webkit-backdrop-filter: blur(2.8px);
+    transition: box-shadow .8s ease;
+    
+    color: var(--primary);
+    font-size: 20px;
+
+    &:hover{
+        box-shadow: 0 0 50px rgba(0, 247, 255, 0.3),
+        0 0 40px rgba(0, 247, 255, 0.3) inset;
+        transition: box-shadow .8s ease;
+    };
+}
+.btn-stage:nth-child(2){
+    color: var(--secondary);
+    box-shadow: 0 0 50px rgba(255, 0, 217, 0.3),
+        0 0 40px rgba(255, 0, 217, 0.3) inset;
+}
+

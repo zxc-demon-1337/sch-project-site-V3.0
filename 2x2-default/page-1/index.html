@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantum Cube - Футуристичный тренажер кубика Рубика</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../../default-styles.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <div class="particles">
@@ -27,39 +28,58 @@
         </div>
     </header>
     <main>
+
         <div class="letter">
-            <h1>Схема вращений</h1>
-            <div class="videos" id="vid">
-                <video src="../imgs/F.webm" id="video" muted autoplay repeat></video>
+
+            <h1>1. Первый слой</h1>
+            <p>Вначале нужно собрать первый слой на любой из сторон. Для удобства будем собирать его на белой. Находим на кубике любой угол с белым цветом. Например, бело-красно-зеленый. Этот уголок будет основой первого слоя.</p>
+            <p>Нужно разместить его внизу слева так, чтобы белая сторона смотрела вниз. Получается, что на нас смотрит зеленый цвет.</p>
+            <p>После этого находим еще один угол с белым цветом, у которого есть цвет, который смотрит на нас у первого угла. В нашем случае — это бело-зелено-оранжевый угол. Его нужно поставить перед нами сверху справа.</p>
+            <p>Смотрим, куда направлен белый цвет: на нас, в сторону или наверх. В зависимости от этого выполняем один из трех алгоритмов.</p>
+            <div class="var-2">
+                <div class="piv" id="piv-1">
+                    <!-- <img id="piv-1-img" src="../../imgs/piv-1.png" alt="" class="img"> -->
+                    <video id="piv-1-vid"src="../../imgs/piv-1.webm" muted></video>
+                    <a id="piv-1-a">RUR'U'</a>
+                    <p>Белый смотрит в сторону</p>
+                </div>
+                <div class="piv" id="piv-3">
+                    <!-- <img id="piv-3-img" src="../../imgs/piv-3.png" alt="" class="img"> -->
+                    <video id="piv-3-vid"src="../../imgs/piv-3.webm" muted></video>
+                    <a id="piv-3-a">RUR'U' 3 раза</a>
+                    <p>Белый смотрит в сторону</p>
+                </div>
+                <div class="piv" id="piv-5">
+                    <!-- <img src="../../imgs/piv-5.png" alt="" class="img"> -->
+                    <video id="piv-5-vid"src="../../imgs/piv-5.webm" muted></video>
+                    <a id="piv-5-a">RUR'U' 5 раз</a>
+                    <p>Белый смотрит в сторону</p>
+                </div>
             </div>
-            <ul>
-                <li><a href="" id="F" class="vid-a">F</a> - поворот передней стороны по часовой стрелке</li>
-                <li><a href="" id="F'" class="vid-a">F'</a> - поворот передней стороны против часовой стрелке</li>
-                <li><a href="" id="B" class="vid-a">B</a> - поворот задней стороны по часовой стрелке</li>
-                <li><a href="" id="B'" class="vid-a">B'</a> - поворот задней стороны против часовой стрелке</li>
-                <li><a href="" id="R" class="vid-a">R</a> - поворот правой стороны по часовой стрелке</li>
-                <li><a href="" id="R'" class="vid-a">R'</a> - поворот правой стороны против часовой стрелке</li>
-                <li><a href="" id="L" class="vid-a">L</a> - поворот левой стороны по часовой стрелке</li>
-                <li><a href="" id="L'" class="vid-a">L'</a> - поворот левой стороны против часовой стрелке</li>
-                <li><a href="" id="U" class="vid-a">U</a> - поворот верхней стороны по часовой стрелке</li>
-                <li><a href="" id="U'" class="vid-a">U'</a> - поворот верхней стороны против часовой стрелке</li>
-                <li><a href="" id="D" class="vid-a">D</a> - поворот нижней стороны по часовой стрелке</li>
-                <li><a href="" id="D'" class="vid-a">D'</a> - поворот нижней стороны против часовой стрелке</li>
-            </ul>
-            <p>Повороты выполняются только на 90°. Если указано U2, это означает поворот на 180° (два раза по 90°).</p>
+            <p>Могут возникнуть случаи, когда уголок уже стоит внизу на своем или чужом месте и неправильно разверут.</p>
+            <div class="var-1">
+                <div class="imgs">
+                    <video id="piv-1-2-vid" src="../../imgs/piv-1-2.webm" muted></video>
+                    <video id="piv-2-2-vid" src="../../imgs/piv-2-2.webm" muted></video>
+                    <video id="piv-3-2-vid" src="../../imgs/piv-3-2.webm" muted></video>
+                </div>
+                <a id="piv-1-1-a" href="">RUR'U'</a>
+                <p>далее одна из вышеперечисленных ситуаций</p>
+                <p>Угол стоит внизу неправильно</p>
+            </div>
+            <p>После того, как второй угол встанет правильно, нужно перехватить кубик в руках так, чтобы этот угол оказался внизу слева от нас. Точно так же, как до этого стоял первый уголок.</p>
+            <p>Далее делаем то же самое: находим элемент с белым цветом, у которого есть еще и цвет, который смотрит на нас у нижнего угла. Это бело-оранжево-синий угол. Ставим его сверху справа перед нами, смотрим, куда направлен белый цвет, и делаем алгоритм.</p>
+            <p>После этого то же самое проделываем с последним уголком.</p>
         </div>
         <nav>
                 <button class="btn-stage" id="btn-stage-entr">Введение</button>
-                <button class="btn-stage" id="btn-stage1">1.Схема вращений</button>
-                <button class="btn-stage" id="btn-stage2">2</button>
-                <button class="btn-stage" id="btn-stage3">3</button>
-                <button class="btn-stage" id="btn-stage4">4</button>
-                <button class="btn-stage" id="btn-stage5">5</button>
-                <button class="btn-stage" id="btn-stage6">6</button>
-                <button class="btn-stage" id="btn-stage7">7</button>
+                <button class="btn-stage" id="btn-stage-0-1">Схема вращений</button>
+                <button class="btn-stage" id="btn-stage-1">1. Первый слой</button>
+                <button class="btn-stage" id="btn-stage-2">2. Расстановка углов</button>
+                <button class="btn-stage" id="btn-stage-3">3. Разворот углов</button>
         </nav>
     </main>
-    <script src="scripts.js"></script>
-    <script src="../../default-scripts.js"></script>
+<script src="script.js"></script>
+<script src="../def-script.js"></script>
 </body>
 </html>

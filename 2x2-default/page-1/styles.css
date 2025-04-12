@@ -1,85 +1,65 @@
-main{
-    height: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    z-index: 1;
-}
+
+
 
 p{
-    margin-top: 10px;
     font-size: 20px;
 }
 
-.vid-a{
-    position: relative;
-    z-index: 1;
-    text-decoration: none;
-    color: var(--accent);
-}
-
-#vid{
-    display: none;
-    position: absolute;
-    z-index: 2;
-    top: 273px;
-
-}
-
-#video{
-    height: 120px;
-    width: 120px;
-    border-radius: 12px;
-
-}
-
-#F{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    /* display: none; */
-    z-index: 2;
-}
-
-
-
 .letter{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    overflow: auto;
+
+    flex-direction: column;
+    padding: 20px;
+}
+
+.var-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.var-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    position: relative;
-
-    width: 85%;
-    gap:5%;
-
-    *{
-        position: relative;
-        z-index: 1;
-    }
+    text-align: center;
 }
-li{
-    list-style-position: inside;
-    position: relative;
-    margin: 10px;
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    width: 100%;
+    display: block;
     font-size: 20px;
+    color: var(--accent);
+    cursor: pointer;
 }
-ol{
-    position: relative;
-    z-index: 1;
+video{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    background-color: transparent;
 }
-nav{
-    width: 15%;
 
-    height: 100%;
+.piv{
     display: flex;
     flex-direction: column;
-    padding: 8px;
-    gap: 8px;
-    font-size: 2rem;
-    font-weight: bold;
-    text-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+    align-items: center;
+}
+
+#vid{
+    height: 150px;
+    width: 150px;
+    display: none;
+    position: absolute;
+    z-index: 2;
 }
 
 .btn-stage{
@@ -108,7 +88,8 @@ nav{
         transition: box-shadow .8s ease;
     };
 }
-.btn-stage:nth-child(2){
+
+.btn-stage:nth-child(3){
     color: var(--secondary);
     box-shadow: 0 0 50px rgba(255, 0, 217, 0.3),
         0 0 40px rgba(255, 0, 217, 0.3) inset;

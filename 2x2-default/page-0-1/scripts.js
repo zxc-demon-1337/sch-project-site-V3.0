@@ -7,7 +7,7 @@ F.addEventListener("mouseover", () =>{
     let rect = F.getBoundingClientRect();
     vid.style.display = "block";
     vid.style.top = `${rect.top - 200}px`;
-    vid.style.left = `${rect.left - 130}px`;
+    vid.style.left = `${rect.left - 60}px`;
     video.src="../../imgs/F.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -23,7 +23,7 @@ f.addEventListener("mouseover", () =>{
     let rect = f.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/F'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -40,7 +40,7 @@ B.addEventListener("mouseover", () =>{
     let rect = B.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/B.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -55,7 +55,7 @@ b.addEventListener("mouseover", () =>{
     let rect = b.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/B'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -72,7 +72,7 @@ R.addEventListener("mouseover", () =>{
     let rect = R.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/R.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -87,7 +87,7 @@ r.addEventListener("mouseover", () =>{
     let rect = r.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/R'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -104,7 +104,7 @@ L.addEventListener("mouseover", () =>{
     let rect = L.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/L.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -119,7 +119,7 @@ l.addEventListener("mouseover", () =>{
     let rect = l.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/L'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -136,7 +136,7 @@ U.addEventListener("mouseover", () =>{
     let rect = U.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/U.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -151,7 +151,7 @@ u.addEventListener("mouseover", () =>{
     let rect = u.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/U'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -168,7 +168,7 @@ D.addEventListener("mouseover", () =>{
     let rect = D.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/D.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -183,7 +183,7 @@ d.addEventListener("mouseover", () =>{
     let rect = d.getBoundingClientRect();
     vid.style.display = "block"
     vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 130}px`
+    vid.style.left = `${rect.left - 60}px`
     video.src="../../imgs/D'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
