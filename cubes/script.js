@@ -29,6 +29,10 @@ methodButton_2x2Def.addEventListener('mouseout', () =>{
     cube_2_image.style.filter = '';
 });
 
+methodButton_2x2Def.addEventListener("click", () =>{
+    window.location.href="../2x2-default/page-0-1/index.html"
+})
+
 
 methodButton_2x2Adv.addEventListener("mouseover", () =>{
     cube_2_image.style.filter = "drop-shadow(0 0 5px var(--accent))";

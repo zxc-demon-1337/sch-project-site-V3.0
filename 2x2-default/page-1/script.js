@@ -50,3 +50,9 @@ piv_1_1.addEventListener("mouseout", () =>{
     piv_3_2_vid.pause();
     piv_3_2_vid.currentTime = 0;
 });
+
+const home = document.getElementById("home")
+
+home.addEventListener("click", () =>{
+    window.location.href="../../main-page/main-index.html"
+});

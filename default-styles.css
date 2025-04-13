@@ -82,6 +82,10 @@ body {
     pointer-events: none;
 }
 
+#home{
+    cursor: pointer;
+}
+
 .particle {
     position: absolute;
     width: 3px;
