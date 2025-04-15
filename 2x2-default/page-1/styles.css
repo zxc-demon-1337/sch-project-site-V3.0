@@ -1,8 +1,10 @@
-
+*{
+   font-size: 30px; 
+}
 
 
 p{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .letter{
@@ -37,7 +39,7 @@ p{
 a{
     width: 100%;
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     color: var(--accent);
     cursor: pointer;
 }
@@ -66,7 +68,6 @@ video{
     display: flex;
     justify-content: start;
     padding: 8px;
-    font-size: 20px;
     cursor: pointer;
     border-radius: 8px;
     width: 100%;
@@ -80,7 +81,7 @@ video{
     transition: box-shadow .8s ease;
     
     color: var(--primary);
-    font-size: 20px;
+    font-size: 25px;
 
     &:hover{
         box-shadow: 0 0 50px rgba(0, 247, 255, 0.3),

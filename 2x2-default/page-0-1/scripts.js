@@ -3,12 +3,17 @@ const video = document.getElementById("video")
 
 const F = document.getElementById("F")
 //F
+
+
+
 F.addEventListener("mouseover", () =>{
     let rect = F.getBoundingClientRect();
-    vid.style.display = "block";
-    vid.style.top = `${rect.top - 200}px`;
-    vid.style.left = `${rect.left - 60}px`;
+    vid.style.top = `${rect.top - 150}px`;
+    vid.style.left = `${rect.left - 180}px`;
     video.src="../../imgs/F.webm"
+
+    vid.style.display = "block";
+
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
     });
@@ -22,8 +27,8 @@ const f = document.getElementById("F'")
 f.addEventListener("mouseover", () =>{
     let rect = f.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/F'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -39,8 +44,8 @@ const B = document.getElementById("B")
 B.addEventListener("mouseover", () =>{
     let rect = B.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/B.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -54,8 +59,8 @@ const b = document.getElementById("B'")
 b.addEventListener("mouseover", () =>{
     let rect = b.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/B'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -71,8 +76,8 @@ const R = document.getElementById("R")
 R.addEventListener("mouseover", () =>{
     let rect = R.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/R.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -86,8 +91,8 @@ const r = document.getElementById("R'")
 r.addEventListener("mouseover", () =>{
     let rect = r.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/R'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -103,8 +108,8 @@ const L = document.getElementById("L")
 L.addEventListener("mouseover", () =>{
     let rect = L.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/L.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -118,8 +123,8 @@ const l = document.getElementById("L'")
 l.addEventListener("mouseover", () =>{
     let rect = l.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/L'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -135,8 +140,8 @@ const U = document.getElementById("U")
 U.addEventListener("mouseover", () =>{
     let rect = U.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/U.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -150,8 +155,8 @@ const u = document.getElementById("U'")
 u.addEventListener("mouseover", () =>{
     let rect = u.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/U'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -167,8 +172,8 @@ const D = document.getElementById("D")
 D.addEventListener("mouseover", () =>{
     let rect = D.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/D.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
@@ -182,8 +187,8 @@ const d = document.getElementById("D'")
 d.addEventListener("mouseover", () =>{
     let rect = d.getBoundingClientRect();
     vid.style.display = "block"
-    vid.style.top = `${rect.top - 200}px`
-    vid.style.left = `${rect.left - 60}px`
+    vid.style.top = `${rect.top - 150}px`
+    vid.style.left = `${rect.left - 180}px`
     video.src="../../imgs/D'.webm"
     video.play().catch(error => {
         console.error('Ошибка при запуске видео:', error);
