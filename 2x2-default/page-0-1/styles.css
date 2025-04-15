@@ -1,19 +1,18 @@
-*{
-    font-size: 30px;
-}
 
 h1{
     font-size: 40px;
 }
 
 
-main{
-    height: 100%;
+/* main{
+    height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     position: relative;
     z-index: 1;
-}
+    flex: 1;
+    overflow: auto;
+} */
 
 p{
     margin-top: 10px;
@@ -53,19 +52,18 @@ p{
 
 
 .letter{
-    display: flex;
+    /* height: 100%;
+    display: flex; */
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    /* position: relative;
 
-    width: 85%;
+    width: 95%;
     gap:5%;
 
     *{
         position: relative;
         z-index: 1;
-    }
+    } */
 }
 li{
     list-style-position: inside;
@@ -77,24 +75,27 @@ ol{
     position: relative;
     z-index: 1;
 }
-nav{
+/* nav{
     width: 20%;
 
-    height: 100%;
+    height: 50%;
     display: flex;
+
+    position: sticky;
+    top: 8px;
     flex-direction: column;
     padding: 8px;
     gap: 8px;
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: bold;
     text-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
-}
+} */
 
 .btn-stage{
     display: flex;
     justify-content: start;
     padding: 8px;
-    font-size: 30px;
+    font-size: 25px;
     cursor: pointer;
     border-radius: 8px;
     width: 100%;
