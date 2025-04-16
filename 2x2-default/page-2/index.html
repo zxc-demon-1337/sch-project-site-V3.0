@@ -4,47 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../../default-styles.css">
 </head>
 <body>
-    <main>
-        <article>
-            <p>На этом этапе нужно правильно расставить углы второго слоя. Чтобы цвета на каждом из верхних элементов, кроме желтого, совпадали с цветами элементов под ними.</p>
-            <div class="box" id="rightly-angls">
-                <img src="" alt="" class="rightly-angls-imgs" id="rightly-andls-imgs-1-1">
-                <img src="" alt="" class="rightly-angls-imgs" id="rightly-andls-imgs-1-2">
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    
+    <header class="header">
+        <div class="logo">
+            <div class="header-2" id="home">
+                <i class="fas fa-cube"></i>
+                <span>Mcubes</span>
             </div>
+            <span>О нас</span>
+        </div>
+    </header>
+
+    <main>
+        <article class="letter">
+            <p>На этом этапе нужно правильно расставить углы второго слоя. Чтобы цвета на каждом из верхних элементов, кроме желтого, совпадали с цветами элементов под ними.</p>
+            <div class="box" id="rightly-angl">                
+                <img src="src/rightly-andl-img-1.png" alt="" class="rightly-angl-img" id="rightly-andl-img-1" width="200px" height="200px">
+                <img src="src/rightly-andl-img-2.png" alt="" class="rightly-angl-img" id="rightly-andl-img-2" width="200px" height="200px">
+                <img src="src/rightly-andl-img-3.png" alt="" class="rightly-angl-img" id="rightly-andl-img-3" width="200px" height="200px">
+            </div>
+
             <h1>Правильно стоящие углы</h1>
             <p>Для этого нужно найти желто-красно-зеленый угол и поставить его на правильное место: над другим углом на первом слое с красным и зеленым цветом. Он может быть развернут по-разному, главное, чтобы он стоял на нужном месте.</p>
             <!-- <div class="box" id="rightly-angl">
                             <div class="box" id="rightly-angls">
                 <img src="" alt="" class="rightly-angl-img" id="rightly-andls-imgs-1-1">
                 <img src="" alt="" class="rightly-angl-img" id="rightly-andls-imgs-1-2"> -->
-            </div class="box" id="rightly-angl">                
-                <img src="" alt="" class="rightly-angl-img" id="rightly-andl-img-1">
-                <img src="" alt="" class="rightly-angl-img" id="rightly-andl-img-2">
-                <img src="" alt="" class="rightly-angl-img" id="rightly-andl-img-3">
+            <div class="box" id="rightly-angls">
+                <img src="src/rightly-andls-imgs-1-1.png" alt="" class="rightly-angls-imgs" id="rightly-andls-imgs-1-1" width="200px" height="200px">
+                <img src="src/rightly-andls-imgs-1-2.png" alt="" class="rightly-angls-imgs" id="rightly-andls-imgs-1-2" width="200px" height="200px">
             </div>
+
             <p>Далее, не вращая грани кубика, осматриваем верхний слой и находим другие углы, которые стоят правильно. То есть цвета на них (кроме желтого) должны быть такими же, как цвета у углов, которые стоят под ними.</p>
             <p>Если больше таких углов не нашлось, нужно взять любой другой угол на верхнем слое и поставить его на правильное место. Далее снова проверяем остальные уголки. Нужно найти ситуацию, когда хотя бы два уголка стоят на правильных местах.</p>
             <div class="box" id="rightly-angls-2">
-                <img src="" alt="" class="rightly-angl-img" id="rightly-angls-imgs-2-1">
-                <img src="" alt="" class="rightly-angl-img" id="rightly-angls-imgs-2-2">
+                <img src="src/rightly-angls-imgs-2-1.png" alt="" class="rightly-angl-img" id="rightly-angls-imgs-2-1" width="200px" height="200px">
+                <img src="src/rightly-angls-imgs-2-2.png" alt="" class="rightly-angl-img" id="rightly-angls-imgs-2-2" width="200px" height="200px">
             </div>
             <p>Два правильно стоящих уголка могут стоять рядом или по диагонали.</p>
             <p>Если они стоят рядом, нужно взять кубик так, чтобы правильные уголки оказались слева, и выполнить алгоритм. Если по диагонали — из любого положения выполнить алгоритм, после чего мы получим первую ситуацию, где нужно разместить 2 правильных угла слева и снова сделать алгоритм.</p>
             <div class="algs">
                 <div class="box-1" id="box-1-1">
-                    <video src="" alt="" class="rightly-angls-alg-vid" id="rightly-angls-alg-vid-1"> 
-                    <a href="" id="rightly-angls-alg-a-1"></a>
+                    <video src="src/rightly-angls-alg-vid-1.webm" alt="" class="rightly-angls-alg-vid" id="rightly-angls-alg-vid-1" width="200px" height="200px" muted loop="loop"></video>
+                    <a href="" id="rightly-angls-alg-a-1">3(RUR'U') y 3(LU'L'U)</a>
                     <p>Углы стоят рядом</p>
                 </div>
                 <div class="box-1" id="box-1-2">
-                    <viseo src="" alt="" class="rightly-angls-alg-vid" id="rightly-angls-alg-vid-2"> 
-                    <a href="" id="rightly-angls-alg-a-2"></a>
+                    <video src="src/rightly-angls-alg-vid-1.webm" alt="" class="rightly-angls-alg-vid" id="rightly-angls-alg-vid-2" width="200px" height="200px" muted loop="loop"></video>
+                    <a href="" id="rightly-angls-alg-a-2">3(RUR'U') y 3(LU'L'U), далее первый случай</a>
                     <p>Углы стоят по диагонали</p>
                 </div>
             </div>
         </article>
+        <nav>
+            <button class="btn-stage" id="btn-stage-entr">Введение</button>
+            <button class="btn-stage" id="btn-stage-0-1">Схема вращений</button>
+            <button class="btn-stage" id="btn-stage-1">1. Первый слой</button>
+            <button class="btn-stage" id="btn-stage-2">2. Расстановка углов</button>
+            <button class="btn-stage" id="btn-stage-3">3. Разворот углов</button>
+    </nav>
+
     </main>
+    <script src="script.js"></script>
+    <script src="../def-script.js"></script>
 </body>
 </html>

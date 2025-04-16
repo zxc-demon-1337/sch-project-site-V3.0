@@ -55,7 +55,7 @@ ol{
     position: relative;
     z-index: 1;
 } */
-.letter{
+/* .letter{
     height: 100%;
     display: flex;
     position: relative;
@@ -68,14 +68,14 @@ ol{
         position: relative;
         z-index: 1;
     }
-}
+} */
 
 a{
     text-decoration: none;
 }
 
 nav{
-    width: 30%;
+    width: 20%;
 
     height: 50%;
     display: flex;
@@ -89,5 +89,3 @@ nav{
     font-weight: bold;
     text-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
 }
-
-
