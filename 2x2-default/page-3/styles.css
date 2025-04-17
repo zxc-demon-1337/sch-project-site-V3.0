@@ -1,0 +1,78 @@
+.btn-stage{
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    border: 0;
+    box-shadow: 0;
+    background: rgba(75, 75, 75, 0.33);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2.8px);
+        -webkit-backdrop-filter: blur(2.8px);
+    transition: box-shadow .8s ease;
+    
+    color: var(--primary);
+    font-size: 30px;
+
+    &:hover{
+        box-shadow: 0 0 50px rgba(0, 247, 255, 0.3),
+        0 0 40px rgba(0, 247, 255, 0.3) inset;
+        transition: box-shadow .8s ease;
+    };
+}
+
+.btn-stage:nth-child(5){
+    color: var(--secondary);
+    box-shadow: 0 0 50px rgba(255, 0, 217, 0.3),
+        0 0 40px rgba(255, 0, 217, 0.3) inset;
+}
+
+
+main{
+    *{
+        font-size: 30px;
+    }
+}
+
+article{
+    display: flex;
+    overflow: auto;
+
+    flex-direction: column;
+    padding: 20px;
+
+    height: 100%;
+    display: flex;
+    position: relative;
+
+    width: 95%;
+    gap: 5%;
+    margin-left: 8px;
+
+    *{
+        position: relative;
+        z-index: 1;
+    }
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+span{
+    text-align: center;
+}
+
+.formules{
+    color: var(--accent);
+}
