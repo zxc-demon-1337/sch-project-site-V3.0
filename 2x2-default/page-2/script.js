@@ -20,3 +20,8 @@ btn_alg_2.addEventListener("mouseout", () =>{
     vid_alg_2.pause();
     vid_alg_2.currentTime = 0;
 });
+
+home.addEventListener("click", () =>{
+    window.location.href="../../main-page/main-index.html"
+});
+

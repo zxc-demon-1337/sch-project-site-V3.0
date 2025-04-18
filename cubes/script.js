@@ -30,7 +30,7 @@ methodButton_2x2Def.addEventListener('mouseout', () =>{
 });
 
 methodButton_2x2Def.addEventListener("click", () =>{
-    window.location.href="../2x2-default/page-0-1/index.html"
+    window.location.href="../2x2-default/page-entr/index.html"
 })
 
 

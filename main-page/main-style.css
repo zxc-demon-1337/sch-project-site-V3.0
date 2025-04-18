@@ -26,3 +26,7 @@ p {
 .card p:last-child {
 	margin-bottom: 0;
 }
+
+#about-us{
+	cursor: pointer;
+}

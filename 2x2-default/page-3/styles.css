@@ -67,9 +67,11 @@ article{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-items: center;
 }
 
 span{
+    cursor: pointer;
     text-align: center;
 }
 

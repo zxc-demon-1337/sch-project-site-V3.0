@@ -358,6 +358,9 @@
                 font-size: 1.1rem;
             }
         }
+        #about-us{
+	cursor: pointer;
+}
     </style>
 </head>
 <body>
@@ -372,11 +375,11 @@
     
     <header class="header">
         <div class="logo">
-            <div class="header-2">
+            <div class="header-2" id="home">
                 <i class="fas fa-cube"></i>
                 <span>Mcubes</span>
             </div>
-            <span>О нас</span>
+            <span id="about-us">О нас</span>
         </div>
     </header>
     
@@ -528,5 +531,6 @@
         //     techGrid.style.transform = `translate(${x * 20 - 10}px, ${y * 20 - 10}px)`;
         // });
     </script>
+    <script src="../default-scripts.js"></script>
 </body>
 </html>

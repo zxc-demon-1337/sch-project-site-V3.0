@@ -22,3 +22,9 @@ const home = document.getElementById("home")
 home.addEventListener("click", () =>{
     window.location.href="../main-page/main-index.html"
 });
+
+const about = document.getElementById("about-us")
+
+about.addEventListener("click", () =>{
+    window.location.href = "../adout-us/index.html"
+})
